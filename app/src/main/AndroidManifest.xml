@@ -4,8 +4,13 @@
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <!--录制音频-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
     <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+
+    <!--录制视频-->
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -28,6 +33,9 @@
         <activity android:name=".step1.step1_draw_image.ThreeWaysDrawImageActivity"></activity>
         <activity android:name=".step1.step2_collection_audio.AudioRecordCollectionAudio"></activity>
         <activity android:name=".step1.step3_play_audio.AudioTrackPlayAudioActivity"></activity>
+        <activity android:name=".step1.step4_camera_collection_video.CollectionVideoActivity"></activity>
+        <activity android:name=".step1.step4_camera_collection_video.CameraPreViewSurfaceViewActivity"></activity>
+        <activity android:name=".step1.step4_camera_collection_video.CameraPreViewTextureActivity"></activity>
     </application>
 
 </manifest>

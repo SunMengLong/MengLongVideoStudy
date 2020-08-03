@@ -9,6 +9,7 @@ import com.menglong.video.study.base.util.Util;
 import com.menglong.video.study.step1.step2_collection_audio.AudioRecordCollectionAudio;
 import com.menglong.video.study.step1.step3_play_audio.AudioTrackPlayAudioActivity;
 import com.menglong.video.study.step1.step1_draw_image.ThreeWaysDrawImageActivity;
+import com.menglong.video.study.step1.step4_camera_collection_video.CollectionVideoActivity;
 
 /**
  * Created by 10007358 on 2020/8/3.
@@ -35,5 +36,6 @@ public class Step1Activity extends BaseActivity {
     }
 
     public void study_step1_four(View view) {
+        Util.intentActivity(this, CollectionVideoActivity.class);
     }
 }

@@ -24,7 +24,7 @@ public class MainActivity extends BaseActivity {
      * 申请权限
      */
     private void requestPermission() {
-        requestRuntimePermision(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO}, new PermissioLitener() {
+        requestRuntimePermision(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO,Manifest.permission.CAMERA}, new PermissioLitener() {
             @Override
             public void onGranted() {
 
