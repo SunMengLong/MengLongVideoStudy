@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.menglong.video.study.step1.step2_collection_audio.AudioRecordCollectionAudio">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            android:id="@+id/start_record_but"
+            style="@style/ButtonStyle"
+            android:onClick="collection_audio"
+            android:text="开始录音" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="end_audio"
+            android:text="停止录音" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="pcmToWav"
+            android:text="将PCM源文件转换为WAV文件" />
+
+        <TextView
+            android:id="@+id/save_file_local_path"
+            style="@style/TextStyle"
+            android:layout_marginTop="50dp"
+            android:text="文件保存在：\nAndroid/data/com.menglong.video.study/Music/"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

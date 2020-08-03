@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.menglong.video.study.base.activity.MainActivity">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="study_step1_but"
+            android:text="初级入门篇 - Android基础API" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="study_step2_but"
+            android:text="中级进阶篇 - OpenGL ES 学习" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="study_step3_but"
+            android:text="高级探究篇 - 编码/网络协议/ffmpeg" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="study_step4_but"
+            android:text="音视频开发开源库" />
+    </LinearLayout>
+
+</RelativeLayout>

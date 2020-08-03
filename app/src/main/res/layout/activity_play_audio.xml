@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.menglong.video.study.step1.step3_play_audio.AudioTrackPlayAudioActivity">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="start_play"
+            android:text="开始播放 - Static模式" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="start_play_stream"
+            android:text="开始播放 - Stream模式" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:onClick="stop_play"
+            android:text="停止播放" />
+
+    </LinearLayout>
+
+</RelativeLayout>

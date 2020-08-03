@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.menglong.video.study.step1.Step1Activity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                style="@style/TextStyle"
+                android:text="ImageView绘制图片：" />
+
+            <ImageView
+                android:id="@+id/draw_image_way1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="30dp"
+                android:text="SurfaceView绘制图片：" />
+
+            <SurfaceView
+                android:id="@+id/draw_image_way2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                style="@style/TextStyle"
+                android:layout_marginTop="30dp"
+                android:text="自定义View绘制图片：" />
+
+            <com.menglong.video.study.step1.step1_draw_image.view.CustomImageView
+                android:id="@+id/draw_image_way3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
