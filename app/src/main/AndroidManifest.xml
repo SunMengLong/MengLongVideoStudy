@@ -36,6 +36,7 @@
         <activity android:name=".step1.step4_camera_collection_video.CollectionVideoActivity"></activity>
         <activity android:name=".step1.step4_camera_collection_video.CameraPreViewSurfaceViewActivity"></activity>
         <activity android:name=".step1.step4_camera_collection_video.CameraPreViewTextureActivity"></activity>
+        <activity android:name=".step1.step5_mediaextractor_mediamuxer.MediaExtractorAnalysisVideoActivity"></activity>
     </application>
 
 </manifest>

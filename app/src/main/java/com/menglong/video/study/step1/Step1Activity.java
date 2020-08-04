@@ -10,6 +10,7 @@ import com.menglong.video.study.step1.step2_collection_audio.AudioRecordCollecti
 import com.menglong.video.study.step1.step3_play_audio.AudioTrackPlayAudioActivity;
 import com.menglong.video.study.step1.step1_draw_image.ThreeWaysDrawImageActivity;
 import com.menglong.video.study.step1.step4_camera_collection_video.CollectionVideoActivity;
+import com.menglong.video.study.step1.step5_mediaextractor_mediamuxer.MediaExtractorAnalysisVideoActivity;
 
 /**
  * Created by 10007358 on 2020/8/3.
@@ -37,5 +38,17 @@ public class Step1Activity extends BaseActivity {
 
     public void study_step1_four(View view) {
         Util.intentActivity(this, CollectionVideoActivity.class);
+    }
+
+    public void study_step1_five(View view) {
+        Util.intentActivity(this, MediaExtractorAnalysisVideoActivity.class);
+    }
+
+    public void study_step1_six(View view) {
+
+    }
+
+    public void study_step1_seven(View view) {
+
     }
 }

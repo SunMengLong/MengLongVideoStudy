@@ -31,17 +31,17 @@
 
         <Button
             style="@style/ButtonStyle"
-            android:onClick="study_step1_four"
+            android:onClick="study_step1_five"
             android:text="MediaExtractor 和 MediaMuxer API 解析和封装 mp4 文件" />
 
         <Button
             style="@style/ButtonStyle"
-            android:onClick="study_step1_four"
+            android:onClick="study_step1_six"
             android:text="MediaCodec API 详解" />
 
         <Button
             style="@style/ButtonStyle"
-            android:onClick="study_step1_four"
+            android:onClick="study_step1_seven"
             android:text="音视频录制流程总结" />
     </LinearLayout>
 

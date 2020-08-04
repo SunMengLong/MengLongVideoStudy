@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.menglong.video.study.step1.step5_mediaextractor_mediamuxer.MediaExtractorAnalysisVideoActivity">
+
+    <LinearLayout style="@style/LinearLayoutStyle">
+
+        <Button
+            android:id="@+id/separate_video_but"
+            style="@style/ButtonStyle"
+            android:onClick="separate_video"
+            android:text="分离出纯视频" />
+
+        <Button
+            android:id="@+id/separate_audio_but"
+            style="@style/ButtonStyle"
+            android:onClick="separate_audio"
+            android:text="分离出纯音频" />
+
+        <Button
+            android:id="@+id/synthesis_video_but"
+            style="@style/ButtonStyle"
+            android:onClick="synthesis_video"
+            android:text="合成视频" />
+
+    </LinearLayout>
+
+</RelativeLayout>
