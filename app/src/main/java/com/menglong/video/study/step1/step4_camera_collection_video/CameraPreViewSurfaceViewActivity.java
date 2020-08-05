@@ -57,6 +57,11 @@ public class CameraPreViewSurfaceViewActivity extends BaseActivity implements Su
 
     @Override
     public void surfaceDestroyed(SurfaceHolder surfaceHolder) {
+        surfaceHolder.removeCallback(this);
+        camera.setPreviewCallback(null);
+        camera.stopPreview();
+        camera.lock();
         camera.release();
+        camera = null;
     }
 }
