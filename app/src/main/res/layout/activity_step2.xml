@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.menglong.video.study.step2.Step2Activity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_one"
+                android:text="OpenGL ES 介绍" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_two"
+                android:text="OpenGL ES 环境搭建" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_three"
+                android:text="OpenGL ES 定义形状" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_four"
+                android:text="OpenGL ES 绘制形状" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_five"
+                android:text="OpenGL ES 使用投影和相机视图" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_six"
+                android:text=" OpenGL ES 添加运动效果" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_seven"
+                android:text="OpenGL ES 响应触摸事件" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_eight"
+                android:text="OpenGL ES 着色器语言GLSL" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_nine"
+                android:text="OpenGL ES 纹理贴图" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:onClick="study_step2_ten"
+                android:text="通过GLES20与着色器交互" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

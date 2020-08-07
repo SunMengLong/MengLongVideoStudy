@@ -12,6 +12,11 @@
     <!--录制视频-->
     <uses-permission android:name="android.permission.CAMERA"></uses-permission>
 
+    <!--Open GL 环境搭建-->
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -37,6 +42,10 @@
         <activity android:name=".step1.step4_camera_collection_video.CameraPreViewSurfaceViewActivity"></activity>
         <activity android:name=".step1.step4_camera_collection_video.CameraPreViewTextureActivity"></activity>
         <activity android:name=".step1.step5_mediaextractor_mediamuxer.MediaExtractorAnalysisVideoActivity"></activity>
+
+        <activity android:name=".step2.Step2Activity"></activity>
+        <activity android:name=".step2.step1_opengl_introduce.OpenGLintroduceActivity"></activity>
+        <activity android:name=".step2.step2_opengl_environment_construction.OpenGLES20Activity"></activity>
     </application>
 
 </manifest>

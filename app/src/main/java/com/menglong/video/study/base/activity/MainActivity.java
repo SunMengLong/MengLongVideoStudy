@@ -8,6 +8,7 @@ import com.menglong.video.study.R;
 import com.menglong.video.study.base.callback.PermissioLitener;
 import com.menglong.video.study.base.util.Util;
 import com.menglong.video.study.step1.Step1Activity;
+import com.menglong.video.study.step2.Step2Activity;
 
 import java.util.ArrayList;
 
@@ -46,6 +47,7 @@ public class MainActivity extends BaseActivity {
     }
 
     public void study_step2_but(View view) {
+        Util.intentActivity(this, Step2Activity.class);
     }
 
     public void study_step3_but(View view) {
